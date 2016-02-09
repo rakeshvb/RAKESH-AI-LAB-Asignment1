@@ -1,0 +1,26 @@
+myArray = []
+    lines = f.readlines()
+    for line in lines:
+        myArray.append(line.split().strip())
+    #print myArray
+   # myArray=myArray.strip()
+    for i in range(12):
+        if (i==0):
+            task=int(myArray[0])
+        if (i==1):
+            player=myArray[1]
+        if (i==2):
+            cutt_off_depth=int(myArray[2])
+        if(i==3):
+            value=map(int,myArray[3])
+            value.append(int(myArray[4]))
+            value.append(int(myArray[5]))
+            value.append(int(myArray[6]))
+            value.append(int(myArray[7]))
+        if(i==8):
+            state=myArray[8]
+            state.append(myArray[9])
+            state.append(myArray[10])
+            state.append(myArray[11])
+            state.append(myArray[12])
+    print state

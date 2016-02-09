@@ -11,8 +11,8 @@ class evaluation:
         
         player11=0
         player22=0
-        for i in range(5):
-            for j in range(5):
+        for i in range(0,5):
+            for j in range(0,5):
                 if(self.occupied_positions1[i][j]==self.player1):
                     player11 += self.value1[i][j]
                 elif(self.occupied_positions1[i][j]==self.oplayer1):

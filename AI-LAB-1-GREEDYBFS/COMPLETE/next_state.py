@@ -41,7 +41,7 @@ class next_state:
                         pos_j=j
                 
                     
-        print pos_i,pos_j
+#        print pos_i,pos_j
     
         i=pos_i
         j=pos_j
@@ -60,7 +60,7 @@ class next_state:
            
                         
             
-        print pos_i,pos_j,self.value[pos_i][pos_j],max_evaluation    
+#        print pos_i,pos_j,self.value[pos_i][pos_j],max_evaluation    
         self.evaluation_function += max_evaluation
         #print self.evaluation_function
         self.occupied_positions[pos_i][pos_j]=self.player
